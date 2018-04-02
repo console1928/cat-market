@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">Котомаркет</header>
+    <main class="main">
+        <input type="checkbox" class="breed_checkbox" id="ab">
+        <input type="checkbox" class="breed_checkbox" id="br">
+        <input type="checkbox" class="breed_checkbox" id="ru">
+        <input type="checkbox" class="breed_checkbox" id="si">
+        <section class="menu-left">
+            <div class="breed_list">
+                <label for="ab" class="breed" id="ab_label">Абиссинская</label>
+                <label for="br" class="breed" id="br_label">Британская</label>
+                <label for="ru" class="breed" id="ru_label">Русская голубая</label>
+                <label for="si" class="breed" id="si_label">Сиамская</label>
+            </div>
+        </section>
+        <div class="center">
+            <figure class="cat-image ab" data-name="Барсик"><img src="images/1.jpg" /></figure>
+            <figure class="cat-image br" data-name="Мурзик"><img src="images/2.jpg" /></figure>
+            <figure class="cat-image br" data-name="Дымок"><img src="images/3.jpg" /></figure>
+            <figure class="cat-image ab" data-name="Пушок"><img src="images/4.jpg" /></figure>
+            <figure class="cat-image ru" data-name="Снежок"><img src="images/5.jpg" /></figure>
+            <figure class="cat-image si" data-name="Пушистик"><img src="images/6.jpg" /></figure>
+            <figure class="cat-image ru" data-name="Вильгельм"><img src="images/7.jpg" /></figure>
+            <figure class="cat-image si" data-name="Алеша"><img src="images/8.jpg" /></figure>
+        </div>
+        <div class="menu-right">
+            <h2>РЕЙТИНГ</h2>
+            <input type="checkbox" id="menu-right-checkbox">
+            <label for="menu-right-checkbox">по убыванию</label>
+            <div class="rating">
+                <div class="rating-item" data-rating="4">Сиамская</div>
+                <div class="rating-item" data-rating="8">Русская голубая</div>
+                <div class="rating-item" data-rating="9">Британская</div>
+                <div class="rating-item" data-rating="10">Абиссинская</div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <span class="organisation">© ООО Бабуленькины котятки, 2015</span>
+        <span class="address">Наш адрес: улица Котовая, д.5</span>
+    </footer>
+</body>
+
+</html>
